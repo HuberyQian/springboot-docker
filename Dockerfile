@@ -7,7 +7,7 @@ VOLUME ["/tmp"]
 #声明了容器应该打开的端口并没有实际上将它打开
 EXPOSE 8080
 
-ADD ./target/springboot-docker.jar app.jar
+ADD ./target/springboot-docker-0.0.1-SNAPSHOT.jar app.jar
 RUN bash -c 'touch /app.jar'
 
 #指定容器启动时要执行的命令，但如果存在CMD指令，CMD中的参数会被附加到ENTRYPOINT指令的后面
