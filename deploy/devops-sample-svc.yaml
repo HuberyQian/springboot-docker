@@ -4,7 +4,7 @@ metadata:
   labels:
     component: springboot-docker
   name: springboot-docker
-  namespace: cscec-test
+  namespace: project-demo-dev
 spec:
   ports:
     - name: http
