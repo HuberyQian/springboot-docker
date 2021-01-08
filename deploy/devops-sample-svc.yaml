@@ -11,7 +11,7 @@ spec:
       port: 8080
       protocol: TCP
       targetPort: 8080
-      nodePort: 32555
+      nodePort: 32666
   selector:
     component: springboot-docker
   sessionAffinity: None
