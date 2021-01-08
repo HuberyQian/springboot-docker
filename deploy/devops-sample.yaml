@@ -19,7 +19,7 @@ spec:
       containers:
         - image: $REGISTRY/$HARBOR_PROJECT/$APP_NAME:snapshot-$BUILD_NUMBER
           imagePullPolicy: IfNotPresent
-          name: springboot-docker
+          name: springboot-docker-test
           ports:
             - containerPort: 8080
               protocol: TCP
